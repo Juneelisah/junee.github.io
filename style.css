@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(54, 55, 143);
+  padding: 2rem;
+}
+
+nav ul {
+  display: flex;
+  gap: 1rem;
+  list-style-type: none;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.3rem 0.6rem;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: rgb(255, 213, 62);
+}
+
+main {
+  padding-left: 2rem;
+  text-align: left;
+  max-width: 40rem;
+  padding-top: 2rem;
+}
+
+.content-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.episode-image {
+  max-width: 10rem;
+  height: auto;
+  margin-right: 1rem;
+}
+
+p {
+  line-height: 1.6;
+  font-size: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+body {
+  background-color: rgb(255, 255, 249);
+}
+
+iframe {
+  width: 100%;
+  max-width: 35rem;
+  aspect-ratio: 16/9;
+  height: auto;
+  margin-bottom: 2rem;
+}
